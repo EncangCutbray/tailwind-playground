@@ -1,65 +1,133 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              montserrat: ["Montserrat"],
-            },
-            colors: {
-              clifford: "#da373d",
-            },
-          },
-        },
-      };
-    </script>
-  </head>
 
-  <body>
-    <!-- Page 1 -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+    .swiper {
+      width: 100%;
+      height: 50px;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            montserrat: ["Montserrat"],
+          }
+        },
+      },
+    };
+  </script>
+</head>
+
+<body>
+
+  <div>
+    <!-- page 1 -->
     <div
-      class="w-full h-[1000px] bg-no-repeat bg-cover bg-center bg-[url('https://framerusercontent.com/images/JFJzhWKJCaJywWmX966nOrRHc4o.jpg')]"
-    >
-      <div
-        class="min-h-screen flex flex-col items-center justify-center sm:px-[40px] font-montserrat"
-      >
-        <h1 class="text-white text-[24px] font-medium text-center mb-3">
-          A Bridge to Build The Future Through Knowledge
-        </h1>
-        <h2 class="text-white text-[14px] font-medium text-center mb-[31px]">
-          Let us help you to make it happen!
-        </h2>
-        <button
-          class="px-[15px] py-[12px] font-bold rounded-full text-white drop-shadow-lg text-[14px] bg-[url('https://framerusercontent.com/images/lue3L8BlIkdCazXFDeIs10lHo.png')]"
-        >
-          Explore Now
-        </button>
+      class="w-full h-full bg-no-repeat bg-cover bg-center bg-[url('https://framerusercontent.com/images/JFJzhWKJCaJywWmX966nOrRHc4o.jpg')]">
+      <div class="container mx-auto">
+        <div class="min-h-screen flex flex-col justify-center items-center">
+          <h1 class="font-montserrat font-medium text-white text-[72px] leading-[1.2em] text-center mb-[20px]">
+            Bangun Masa Depan Anda Melalui Pengetahuan
+          </h1>
+          <h2
+            class="font-montserrat font-medium text-white text-[32px] leading-[1.5em] tracking-[-0.5px] text-center mb-[40px]">
+            Kami bantu mewujudkanya!</h2>
+          <button
+            class="bg-[url('https://framerusercontent.com/images/lue3L8BlIkdCazXFDeIs10lHo.png')] px-[15px] py-[12px] rounded-full drop-shadow-2xl mb-[188px]">
+            <p class="font-montserrat font-bold text-white text-[14px] leading-[1.2em] text-center">Jelajahi Sekarang
+            </p>
+          </button>
+
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper text-white">
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/AWvjnTnoKw0DumEfI9TqJPYYyw.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/Ew4frk2aANuSCF6NEI1A2g9eY6Y.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/AWvjnTnoKw0DumEfI9TqJPYYyw.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/Ew4frk2aANuSCF6NEI1A2g9eY6Y.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/AWvjnTnoKw0DumEfI9TqJPYYyw.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/Ew4frk2aANuSCF6NEI1A2g9eY6Y.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/AWvjnTnoKw0DumEfI9TqJPYYyw.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/Ew4frk2aANuSCF6NEI1A2g9eY6Y.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/AWvjnTnoKw0DumEfI9TqJPYYyw.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/Ew4frk2aANuSCF6NEI1A2g9eY6Y.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/AWvjnTnoKw0DumEfI9TqJPYYyw.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+              <div class="swiper-slide">
+                <img src="https://framerusercontent.com/images/Ew4frk2aANuSCF6NEI1A2g9eY6Y.png" alt="" class="w-[110px] h-[44px]">
+              </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
       </div>
     </div>
 
+    <!-- page 2 -->
+    <div>
+
+    </div>
+
+    <!-- Page 1 -->
+    <!-- <div
+    class="w-full h-[1000px] bg-no-repeat bg-cover bg-center bg-[url('https://framerusercontent.com/images/JFJzhWKJCaJywWmX966nOrRHc4o.jpg')]">
+    <div class="min-h-screen flex flex-col items-center justify-center sm:px-[40px] font-montserrat">
+      <h1 class="text-white text-[24px] font-medium text-center mb-3">
+        Bangun Masa Depan Anda Melalui Pengetahuan
+      </h1>
+      <h2 class="text-white text-[14px] font-medium text-center mb-[31px]">
+        Let us help you to make it happen!
+      </h2>
+      <button
+        class="px-[15px] py-[12px] font-bold rounded-full text-white drop-shadow-lg text-[14px] bg-[url('https://framerusercontent.com/images/lue3L8BlIkdCazXFDeIs10lHo.png')]">
+        Explore Now
+      </button>
+    </div>
+  </div> -->
+
     <!-- Page 2 -->
-    <div
-      class="w-full h-[1200px] bg-no-repeat bg-cover bg-center bg-[url('https://framerusercontent.com/images/bQCS8PeBWPCABdALwYfaQyLFafE.png')]"
-    >
-      <div class="font-montserrat">
-        <h1 class="text-center text-white">
-          <div class="text-[50px] font-medium tracking-[-2.6px] leading-[1.2em]">
-            Kami Ajak Anda untuk Tingkatkan Kemampuan dan Karir Profesional yang
-            Dimiliki
-          </div>
-          <div class="text-[24px] font-bold">Capai Tujuan Anda Hari Ini!</div>
-        </h1>
-      </div>
-      <!-- <div class="min-h-[500px] flex flex-col items-center justify-center">
+    <!-- <div
+    class="w-full h-[1200px] bg-no-repeat bg-cover bg-center bg-[url('https://framerusercontent.com/images/bQCS8PeBWPCABdALwYfaQyLFafE.png')]">
+    <div class="font-montserrat">
+      <h1 class="text-center text-white">
+        <div class="text-[50px] font-medium tracking-[-2.6px] leading-[1.2em]">
+          Kami Ajak Anda untuk Tingkatkan Kemampuan dan Karir Profesional yang
+          Dimiliki
+        </div>
+        <div class="text-[24px] font-bold">Capai Tujuan Anda Hari Ini!</div>
+      </h1>
+    </div> -->
+    <!-- <div class="min-h-[500px] flex flex-col items-center justify-center">
         <h1 class="text-center text-white md:text-[50px] font-montserrat">
           <div class="font-medium mb-4">
             We Encourage You to Elevate Your Skills & Professional Career
@@ -118,6 +186,21 @@
           </button>
         </div>
       </div> -->
-    </div>
-  </body>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      autoHeight: true,
+      autoplay: true,
+      slidesPerView: 7,
+      spaceBetween: 100,
+      freeMode: true,
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   clickable: true,
+      // },
+    });
+  </script>
+</body>
+
 </html>
